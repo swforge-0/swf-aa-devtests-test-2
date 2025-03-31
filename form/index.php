@@ -2,9 +2,10 @@
 
 require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php';
 
-$APPLICATION->SetTitle('Test');
+$APPLICATION->SetTitle('Форма');
 ?>
-<?php $APPLICATION->IncludeComponent('tai:main.page', 'test', [
+
+<?php $APPLICATION->IncludeComponent('tai:form.ajax', 'test', [
 	'CACHE_TYPE' => 'A',
 	'CACHE_TIME' => '36000000',
 	],
