@@ -8,7 +8,6 @@ $APPLICATION->SetTitle('Test');
 	'CACHE_TYPE' => 'A',
 	'CACHE_TIME' => '36000000',
 	],
-	false
-); ?>
+false); ?>
 
 <?php require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php'; ?>
